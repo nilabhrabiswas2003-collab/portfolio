@@ -25,10 +25,17 @@ window.onscroll=()=>{
         }
     });
 }
-cv.addEventListener('click',()=>{
-    // console.log("button was clicked");
-    window.open('https://drive.google.com/file/d/1dmNK_qXr2Im4D4KgUbvBEy3FcMWt9mQA/view?usp=sharing', '_blank');
-})
+// cv.addEventListener('click',()=>{
+//     // console.log("button was clicked");
+//     window.open('https://drive.google.com/file/d/1dmNK_qXr2Im4D4KgUbvBEy3FcMWt9mQA/view?usp=sharing', '_blank');
+// })
+
+//const cv = document.getElementById("cv");
+
+cv.addEventListener("click", () => {
+    window.location.href = "photo/enhComRes.pdf";
+});
+
 
 
 
