@@ -33,7 +33,7 @@ window.onscroll=()=>{
 //const cv = document.getElementById("cv");
 
 cv.addEventListener("click", () => {
-    window.location.href = "photo/enhComRes.pdf";
+    window.open("photo/enhComRes.pdf", "_blank");
 });
 
 
